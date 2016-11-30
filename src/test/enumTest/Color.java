@@ -1,6 +1,7 @@
 package test.enumTest;
 
 public enum Color {
+	//change master
 	RED(255, 0, 0), BLUE(0, 0, 255), BLACK(0, 0, 0), YELLOW(255, 255, 0), GREEN(0, 255, 0);
 	// 构造枚举值，比如RED(255,0,0)
 	private Color(int rv, int gv, int bv) {
