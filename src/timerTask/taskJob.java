@@ -31,7 +31,7 @@ public class taskJob extends TimerTask {
 		cal.set(Calendar.HOUR_OF_DAY, 11);
 		cal.set(Calendar.MINUTE,0);
 		cal.set(Calendar.SECOND,0);
-		cal.set(Calendar., value);
+		cal.add(Calendar.DATE, +1);
 		Date date = cal.getTime();
 		
 		taskJob job = new taskJob();
