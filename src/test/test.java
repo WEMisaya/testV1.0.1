@@ -6,7 +6,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
+import java.util.Timer;
+
 import test.enumTest.Color;
+import timerTest.testTask;
 
 public class test {
 
@@ -28,6 +31,8 @@ public class test {
 	}
 
 	public static void main(String[] args) {
+		testTask task = new testTask();
+		new Timer().schedule(task, 10L);
 		String date = parseNOToDate("161128");
 		System.out.println(date);
 		String date2 = parseNOToDate2("2016-11-28");
